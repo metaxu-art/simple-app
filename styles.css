@@ -1,0 +1,8 @@
+.bottom-buttons {
+  border: 1px solid grey;
+  padding: 2px;
+}
+
+.bottom-buttons:hover {
+  border: 1px solid grey;
+}
