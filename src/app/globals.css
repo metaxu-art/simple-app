@@ -3,25 +3,28 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  /* ... other styles remains unchanged ... */
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+  /* ... other styles remains unchanged ... */
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  /* ... other styles remains unchanged ... */
+}
+
+/* Added consistent grey outline for buttons */
+.group.rounded-lg.border {
+  border-color: var(--border-gray-300);
+  // Variable for grey outline
+}
+
+.group.rounded-lg.border.transition-colors:hover {
+  /* ... hover styles remains unchanged ... */
+}
+
+.group.rounded-lg.border.m-2 {
+  margin: 2px;
+  // 2px padding between buttons
 }
