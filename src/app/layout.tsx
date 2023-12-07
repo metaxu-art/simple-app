@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}><nav className="flex justify-between p-4 bg-gray-100 dark:bg-zinc-800">\n          {/* Existing navigation links */}\n          <a className="px-2 py-1 text-sm font-semibold text-gray-700 dark:text-white" href="/">Home</a>\n          <a className="px-2 py-1 text-sm font-semibold text-gray-700 dark:text-white" href="/contact">Contact</a>\n        </nav>\n        {children}</body>
     </html>
   )
 }
