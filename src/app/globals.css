@@ -8,6 +8,12 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+/* Contact page styles */
+.contact-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
