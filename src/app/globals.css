@@ -4,15 +4,15 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 255; /* This is blue */
+  --background-end-rgb: 0, 0, 255; /* This is also blue */
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background-start-rgb: 0, 0, 255; /* This is blue for dark mode */
+    --background-end-rgb: 0, 0, 255; /* This is also blue for dark mode */
   }
 }
 
