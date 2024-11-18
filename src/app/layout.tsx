@@ -1,4 +1,4 @@
-import './globals.css'
+// Add new code here to render the navigation with the contact linkimport './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 
